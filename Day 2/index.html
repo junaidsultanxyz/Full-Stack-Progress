@@ -4,8 +4,120 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Day 2 </title>
+
+    <style>
+        a:link{
+            color: sienna;
+        }
+        
+        a:visited{
+            color: brown;
+        }
+
+        a:hover{
+            color:darkred;
+        }
+
+        a:active{
+            color: black;
+        }
+
+    </style>
 </head>
 <body>
+    <h1 style="color: brown;"> Welcome To Day 2</h1>
+
+    <hr>
+    
+    <h3 id="1"> 1. Linking anything to HTML </h3>
+    <p> <b>Syntax :</b> < a href="url"> Text link < / a > </p>
+
+    <p> 
+        Different types of links appear in different formats such as: 
+<ul>
+    <li>An unvisited link appears underlined and blue in colour by default.</li>
+    <li> A visited link appears underlined and purple in colour by default.</li>
+    <li> An active link appears underlined and red in colour by default.</li>
+</ul>
+        The appearances of links can be changed by using CSS. 
+    </p>
+
+    <a href="" id="link1"> Link 1 </a> <br>
+    <a href="" id="link2"> Link 2 </a> <br>
+    <a href="" id="link3"> Link 3 </a> <br>
+
+    <p> Active Color : Black </p>
+    <p> Hover Color   : Blue </p>
+    <p> Simple Color  : blueviolet </p>
+
+    <hr>
+    
+    <h3 id="2"> 2. Target Attribute </h3>
+    <p>
+        <b>Syntax :</b> < a href="" target="" > Link Name < /a> 
+    </p>
+
+    <p>
+        <i> _blank </i>
+        : <a href="https://example.com" target="_blank"> open in new window/tab </a>  <br> 
+        <i> _self </i>
+        : <a href="https://example.com" target="_self"> open in same window/tab </a>  <br> 
+        <i> _top </i>
+        : <a href="https://example.com" target="_top"> open in full body of window </a>  <br> 
+        <i> _parent </i>
+        : <a href="https://example.com" target="_parent"> open in parent frame </a>  <br> 
+    </p>
+
+    <hr>
+
+    <h3 id="3"> 3. Images as Links </h3>
+
+    <p>
+        <b> Syntax : </b>
+<pre>
+    < a href="" target="">
+        < img src="" height="" width="">
+    < /a>
+</pre>
+    </p>
+    
+    <p> image src can be both local file or an image link </p>
+
+    <a href="https://www.pexels.com/search/cat/" target="_blank">
+        <img src="cat_1.jpg"
+        width="200px" height="200px" style="border-radius: 20px;">
+    </a>
+
+    <hr>
+
+    <h3 id="4"> 4. Image Attributes </h3>
+    <p>
+        <b> Syntax : </b>
+        < img src="" alt="" width="" height="">
+    </p>
+
+    <p>
+        <b>Attributes: </b>
+        The < img > tag has following attributes.
+    </p>
+
+    <ul>
+        <li> src: Specify the path to the image </li>
+        <li> alt: If image can't load, it will show the text. When using speech, it will say what's written in alt </li>
+        <li> crossorigin: Import images from third-party sites that allow cross-origin access to be used with canvas </li>
+        <li> height: Specify the height of the image </li>
+        <li> width: It is used to specify the width of the image </li>
+        <li> ismap: It is used to specify an image as a server-side image map </li>
+        <li> loading: It is used to specify whether a browser should defer loading of images until some conditions are met or load an image immediately </li>
+        <li> longdesc: It is used to specify a URL to a detailed description of an image </li>
+        <li> referrerpolicy: It is used to specify which referrer information to use when fetching an image i.e. no-referrer, no-referrer-when-downgrade, origin, origin-when-cross-origin, unsafe-url</li>
+        <li> sizes: It is used to specify image sizes for different page layouts </li>
+        <li> srcset: It is used to specify a list of image files to use in different situations </li>
+        <li> usemap: It is used to specify an image as a client-side image map </li>
+    </ul>
+
+    <hr>
+
     
 </body>
 </html>

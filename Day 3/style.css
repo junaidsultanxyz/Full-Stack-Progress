@@ -1,0 +1,70 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: rgb(212, 235, 255);
+    width: 100%;
+    height: auto;
+    justify-items: center;
+}
+
+nav {
+    background-color: rgb(151, 207, 255);
+    width: 100%;
+    height: auto;
+
+}
+
+main{
+    width: fit-content;
+    height: fit-content;
+    display: flexbox;
+    padding-inline: 40px;
+    font-size: 1.5rem;
+}
+
+main * {
+    margin-top: 30px;
+    border-radius: 20px;
+    padding-inline: 20px;
+}
+
+footer {
+    background-color: darkgrey;
+    width: 100%;
+    height: auto;
+}
+
+#page-title {
+    font-size: 3rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* .................................................... */
+article{
+    background-color: rgb(139, 200, 253);
+}
+/* .................................................... */
+aside{
+    background-color: rgb(202, 230, 255);
+}
+/* .................................................... */
+details{
+    background-color: rgb(163, 212, 255);
+}
+
+/* .................................................... */
+.figure-figcap{
+    background-color:rgb(193, 226, 255);
+}
+
+figure{
+    justify-items: center;
+}
+
+figure img {
+    width: 300px;
+}
+/* .................................................... */

@@ -10,6 +10,18 @@ header {
     justify-items: center;
 }
 
+nav ul{
+    display: flex;
+    justify-content: center;
+
+}
+
+nav ul li{
+    font-size: 1.5rem;
+    width: 100px;
+    
+}
+
 nav {
     background-color: rgb(151, 207, 255);
     width: 100%;

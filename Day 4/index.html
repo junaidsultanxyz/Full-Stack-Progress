@@ -12,7 +12,7 @@
     <hr>
 
 <main>
-    <section id="lists">
+    <section id="lists-section">
     
         <p lang="en"> 
             <b> Lists </b> <br>
@@ -48,8 +48,6 @@
         </dl>
         
     </section>
-
-    <hr>
 
     <section id="tables-section">
         <b> Tables </b>
@@ -119,6 +117,53 @@
                 <td> Data 2</td>
             </tr>
         </table>
+    </section>
+
+    <section id="form-section">
+        <p>
+            < label >: It defines label for < form > elements
+            <br>< input >: It is used to get input data from the form in various type such as text, password, email, etc by changing it's type.
+            <br>< button >: It defines a clickable button to control other elements or execute a functionality.
+            <br>< select >: It is used to create a drop-down list.
+            <br>< textarea >: It is used to get input long text content.
+            <br>< fieldset >: It is used to draws a box around other form elements and group the related data.
+            <br>< legend >: It defines caption for fieldset elements.
+            <br>< datalist >: It is used to specify pre-defined list options for input controls.
+            <br>< output >: It display the output of performed calculations.
+            <br>< option >: It is sused to define option in drop-down list.
+            <br>< optgroup >: It used to defines group related options in a drop down list.
+        </p>
+
+        <hr>
+
+    <form>
+    <fieldset>
+        <legend> Profile </legend>
+
+        <p>
+            <label> Full Name </label> <input type="text" name="full-name" id="full-name" placeholder="John Smith">
+        </p>
+
+        <p> Gender <br>
+            <label> Male </label> <input type="radio" name="Gender" value="male" id="radio-button">
+            <label> Female </label> <input type="radio" name="Gender" value="female" id="radio-button">
+        </p>
+
+        <p> Email
+            <input type="email" name="Email" id="email-input" placeholder="example123@gmail.com">
+        </p>
+
+        <p> Date Of Birth 
+            <input type="date" name="dob">
+        </p>
+
+        <p> Address <br>
+            <textarea name="address" rows="10" ="adress" placeholder="123 pizza street :)"></textarea>
+        </p>
+
+        <button type="submit"> Submit </button>
+    </fieldset>
+    </form>
     </section>
 </main>
 

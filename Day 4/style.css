@@ -1,0 +1,51 @@
+header{
+    padding-block: 20px;
+    font-size: 3em;
+    justify-items: center;
+    text-align: center;
+}
+
+main{
+    margin-top: 10px;
+    font-size: 1.5em;
+}
+
+ul{
+    background-color: blanchedalmond;
+}
+
+ul li{
+    background-color: rgb(255, 242, 224);
+}
+
+ol{
+    background-color: aliceblue;
+}
+
+ol li{
+    background-color: rgb(222, 238, 252);
+}
+
+dl{
+    background-color: beige;
+}
+
+dl dt{
+    background-color: rgb(249, 249, 193);
+}
+
+dl dd{
+    background-color: rgb(255, 255, 230);
+}
+
+table {
+    border-radius: 20px;
+    padding: 5px;
+    width: 100%;
+}
+
+td, th {
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+}

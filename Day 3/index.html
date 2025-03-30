@@ -26,42 +26,74 @@
 
 <main>
     
-    <article>
-        <b> Article: </b>
+    <p class="card">
+        <b class="card-title"> Header </b>
+        it is for the header of a section introductory of a page. There can be multiple headers on a page
+    </p>
+
+    <p class="card">
+        <b class="card-title"> Main </b>
+        It defines the main content of the document. The content inside main tag should be unique.
+    </p>
+
+    <p class="card">
+        <b class="card-title"> Section </b>
+        A page can be split into sections like Introduction, Contact Information, Details etc and each of these sections can be in a different section tag
+    </p>
+
+    <p class="card">
+        <b class="card-title"> Nav </b>
+        It is used to define a set of navigation links in the form of navigation bar or nav menu
+    </p>
+
+    <article class="card">
+        <b class="card-title"> Article </b>
         It contains independent content which doesnt require any other context. 
 Example: Blog Post, Newspaper Article etc
     </article>
 
-    <aside>
-        <b> Aside: </b>
+    <aside class="card">
+        <b class="card-title"> Aside </b>
         It is used to place content in a sidebar i.e. aside the existing content. It is related to surrounding content
     </aside>
 
-    <details>
-        <summary> Details & Summary </summary>
+    <details class="card">
+        <summary class="card-title"> <b> Details & Summary </b> </summary>
         <p> “details” defines additional details that the user can hide or view. “summary” defines a visible heading for a “details” element</p>
     </details>
 
-    <div class="figure-figcap">
-        <p>
-            <b> Figure and Figcaption: </b>
+    <div id="fig-figcap" style="justify-items: center;">
+        <p class="card">
+            <b class="card-title"> Figure and Figcaption </b>
             These are used to add an image in a web page with small description
         </p>
 
-        <figure>
-            <img src="images/flower.jpg" alt="flowerImage">
+        <figure style="justify-items: center;">
+            <img src="images/flower.jpg" alt="flowerImage" width="300">
             <figcaption> Beautiful Flower </figcaption> 
         </figure>
     </div>
 
+    <p class="card">
+        <b class="card-title"> Mark </b>
+        <mark style="background-color: beige;">It is used to highlight the text</mark>
+        <br>
+    </p>
 
+    <p class="card">
+        <b class="card-title"> Div </b>
+        It is a block level element or division of a section. It is used as a container
+    </p>
     
 </main>
 
+    <br><br>
 
-    <footer>
-
-    </footer>
+<footer>
+    <br>
+    <p>this is the footer, used to put information like contacts</p>
+    <br>
+</footer>
     
 </body>
 </html>

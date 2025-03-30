@@ -13,24 +13,28 @@ header {
 nav ul{
     display: flex;
     justify-content: center;
-
+    list-style: none;
 }
 
 nav ul li{
     font-size: 1.5rem;
     width: 100px;
-    
+    text-align: center;
+    cursor: pointer;
+
+}
+
+nav ul li:hover{
+    background-color: rgb(46, 157, 255);
 }
 
 nav {
     background-color: rgb(151, 207, 255);
-    width: 100%;
     height: auto;
 
 }
 
 main{
-    width: fit-content;
     height: fit-content;
     display: flexbox;
     padding-inline: 40px;
@@ -47,6 +51,8 @@ footer {
     background-color: darkgrey;
     width: 100%;
     height: auto;
+    text-align: center;
+    font-size: 1.5em;
 }
 
 #page-title {
@@ -54,29 +60,18 @@ footer {
     font-family: 'Courier New', Courier, monospace;
 }
 
-/* .................................................... */
-article{
-    background-color: rgb(139, 200, 253);
-}
-/* .................................................... */
-aside{
-    background-color: rgb(202, 230, 255);
-}
-/* .................................................... */
-details{
-    background-color: rgb(163, 212, 255);
-}
-
-/* .................................................... */
-.figure-figcap{
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
     background-color:rgb(193, 226, 255);
 }
 
-figure{
-    justify-items: center;
+.card-title{
+    align-self: center;
 }
 
-figure img {
-    width: 300px;
+#fig-figcap{
+    background-color:rgb(193, 226, 255);
 }
-/* .................................................... */
+

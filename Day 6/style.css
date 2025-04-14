@@ -3,27 +3,9 @@ html * {
     padding: 0px;
 }
 
-.card-holder{
-    display: flex;
-    flex-wrap: wrap;
-    margin: 10px;
-    justify-content: space-around;
-    flex-direction: row;
-}
-
-.card {
-    height: auto;
-    width: 30vw;
-    margin: 10px;
-    overflow: hidden;
-    border-radius: 10px;
-    align-items: stretch;
-}
-
-.card img {
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
+#title{
+    text-align: center;
+    font-size: 3rem;
 }
 
 .flex1 {
@@ -65,8 +47,41 @@ html * {
     font-size: 40px;
 }
 
+
+.container {
+    display: grid;
+    margin: 20px;
+    gap: 10px;
+    grid-template-columns: auto auto auto;
+    grid-auto-rows: 50vh;
+}
+
+.item {
+    background-color: rgb(190, 190, 190);
+    text-align: center;
+    align-content: center;
+    font-size: 1.5rem;
+    grid-row: 40vh;
+    border-radius: 15px;
+}
+
+@media screen and (min-device-width:1820px) and (orientation:landscape) {
+
+    .container {
+        grid-template-columns: auto auto auto auto;
+    }
+}
+
+@media screen and (min-device-width:1280px) {
+
+    .container {
+        grid-template-columns: auto auto auto;
+    }
+}
+
 @media screen and (min-device-width:720px) and (orientation:portrait) {
-    .card {
-        width: 30vh;
+
+    .container {
+        grid-template-columns: auto auto;
     }
 }
